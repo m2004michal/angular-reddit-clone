@@ -21,8 +21,8 @@
           <fa-icon [icon]="faComments"></fa-icon>
           Comments({{post.commentCount}})
         </a>
-        <!-- (click)="goToPost(post.id)" -->
-        <button class="login" >
+
+        <button class="login" (click)="goToPost(post.id)">
           Read Post
         </button>
       </span>
